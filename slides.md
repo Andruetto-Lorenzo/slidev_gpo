@@ -30,13 +30,47 @@ transition: fade-out
 
 # Perché conoscere l'economia?
 
-L'economia studia i beni economici, che sono definiti tali perché hanno la caratteristica di essere <span v-mark.red="3">limitati</span>, <span v-mark.circle.red="1">utili</span> e accessibili.
+L'economia studia i beni economici, che sono definiti tali perché hanno la caratteristica di essere <span v-mark.red="1">limitati</span>, <span v-mark.red="1">utili</span> e  <span v-mark.red="1">accessibili.</span>
 
+<br>
+
+## Macroeconomia e microeconomia
+
+<div class="economies">
+  <div class="micro-economy">
+  La microeconomia si occupa delle scelte individuali:
+    <ul>
+      <li>
+        I consumatori 
+      </li>
+      <li>Le imprese</li>
+      <li>Lo Stato e la Pubblica Amministrazione</li>
+    </ul>
+  </div>
+
+  <br>
+
+  <div class="macro-economy">
+  La macroeconomia, invece, si occupa <br> dell'analisi delle seguenti tematiche economiche:
+    <ul>
+      <li>La crescita economica</li>
+      <li>L'inflazione</li>
+      <li>La disoccupazione</li>
+    </ul>
+  </div>
+</div>
 
 
 <style>
-  h1 {
+  h1, h2 {
     color: red;
+  }
+
+  div.economies {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    row-gap: 50px;
   }
 </style>
 
